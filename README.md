@@ -6,10 +6,10 @@ AlgoRhythm helps creators discover trending topics and optimize their content st
 
 ## Features
 
-- **Trend Discovery** — Get real-time trending topics for YouTube, TikTok, and Instagram
-- **Content Format Recommendations** — Personalized format suggestions based on your niche (fitness, cooking, tech, beauty, and more)
-- **Conversational Interface** — Natural language chat UI for easy interaction
-- **API Access** — RESTful endpoints for integration into other tools
+- **Trend Discovery**: Get real-time trending topics for YouTube, TikTok, and Instagram
+- **Content Format Recommendations**: Personalized format suggestions based on your niche (fitness, cooking, tech, beauty, and more)
+- **Conversational Interface**: Natural language chat UI for easy interaction
+- **API Access**: RESTful endpoints for integration into other tools
 
 ## Tech Stack
 
@@ -49,11 +49,11 @@ git clone https://github.com/BasirS/algorhythm.git
 cd algorhythm
 
 # Create environment
-python -m venv .venv
+python:m venv .venv
 source .venv/bin/activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install:r requirements.txt
 
 # Set environment variables
 export GOOGLE_API_KEY=your_key
@@ -61,7 +61,7 @@ export LANGSMITH_API_KEY=your_key
 export LANGSMITH_TRACING=true
 
 # Run locally
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app:-reload:-port 8000
 ```
 
 ## Author
