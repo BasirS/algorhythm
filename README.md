@@ -15,14 +15,14 @@ AlgoRhythm helps creators discover trending topics and optimize their content st
 
 - **Backend:** FastAPI, LangGraph, LangChain
 - **LLM:** Google Gemini 2.0 Flash
-- **Observability:** LangSmith tracing
+- **Observability:** LangSmith Tracing
 - **Deployment:** Render
 
 ## Live Demo
 
 👉 **[Try AlgoRhythm](https://algorhythm-59it.onrender.com/ui)**
 
-*Note: Free tier may take ~30s to wake up on first request.*
+*Note: Free tier may take ~50s to wake up on first request.*
 
 ## API Endpoints
 
@@ -36,9 +36,9 @@ AlgoRhythm helps creators discover trending topics and optimize their content st
 ## Example Queries
 
 ```
-"What's trending on YouTube right now?"
-"What content formats should I use for fitness content?"
-"How should I grow my cooking channel?"
+"What's the best Pokémon game right now?"
+"Why is the earth not flat?"
+"How should I grow my mukbang channel?"
 ```
 
 ## Local Development
@@ -66,8 +66,7 @@ uvicorn app.main:app --reload --port 8000
 
 ## Author
 
-**Basir Abdul Samad**  
-[GitHub](https://github.com/BasirS) • [LinkedIn](https://linkedin.com/in/basirabdulsamad)
+[Basir Abdul Samad](https://github.com/BasirS)
 
 ---
 
